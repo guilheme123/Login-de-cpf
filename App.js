@@ -57,7 +57,7 @@ export default function App() {
         </>
       }
 
-        {cpf != '' &&
+        {cpf == '000.000.000-00' &&
         <>
       <View style={styles.areaImagem}>
         <Image source={require('./assets/M9yjujh.png')}style={styles.userLogo}  />
